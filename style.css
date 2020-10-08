@@ -1,5 +1,17 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(16, 5, 66);
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: rgb(166, 233, 233)
+}
+
+h5 {
+    color: white;
 }
 
 .Main {
@@ -8,80 +20,86 @@ body {
     grid-template-columns: 25% 75%;
     margin-left: 6em;
     margin-right: 6em;
+    border-radius: 10px;
 }
 
 #Box1 {
     background-color: cadetblue;
-
+    border-radius: 10px;
 }
 
 .BoxPhotoLink {
     flex-direction: column;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 3em;
 }
 
+#BPL1 {
+    padding-top: 1em;
+}
 #BPL2 {
-    padding-top: 10px;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 #Box2 {
-    background-color: cyan;
-
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding-top: 1.2em;
+    padding-left: 3em;
 }
 
 #Box3 {
-    background-color: cyan;
+    background-color: cadetblue;
+    padding-left: 1.5em;
+}
+/* barre des skills */
+.Skills {
+    color:cadetblue;
+    display: flex;
+    flex-direction: row;
+}
+.Bars {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 8px;
+}
 
+.Language {
+    padding-bottom: 1em;
+}
+
+#French {
+    width: 100%;
+    background-color:whitesmoke;
+}
+#English {
+    width: 65%;
+    background-color: whitesmoke;
+}
+#Dutch {
+    width: 40%;
+    background-color: whitesmoke;
+}
+#German {
+    width: 25%;
+    background-color: whitesmoke;
 }
 
 #Box4 {
     background-color: cadetblue;
-
+    padding-left: 3em;
 }
-
+/* hobby */
 #Box5 {
     background-color: cadetblue;
-
+    border-radius: 10px;
+    padding-left: 1.5em;
 }
 
 #Box6 {
-    background-color: cyan;
-
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding-left: 3em;
 }
 
-/* .MainLeft {
-    padding-top: 2px;
-    padding-left: 1em;
-    grid-row: 1/2;
-}
-.MainRight {
-
-
-}
-#content {
-    display: grid;
-    grid-template-columns: 35% 65%;
-    flex-direction: column;
-
-}
-
-#training {
-    padding-left: 1em; 
-    background-color: blueviolet; 
-}
-#link {
-    padding-top: 1em;
-    padding-left: 1em;
-}
-#exp {
-    background-color: cornsilk;
-    padding-left: 1em;
-}
-#hobby {
-    background-color: cornsilk;
-    padding-left: 1em;
-}
-#comp {
-    padding-left: 1em;
-} */
