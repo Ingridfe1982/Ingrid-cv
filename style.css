@@ -1,0 +1,87 @@
+body {
+    background-color: aquamarine;
+}
+
+.Main {
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+#Box1 {
+    background-color: cadetblue;
+
+}
+
+.BoxPhotoLink {
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#BPL2 {
+    padding-top: 10px;
+}
+
+#Box2 {
+    background-color: cyan;
+
+}
+
+#Box3 {
+    background-color: cyan;
+
+}
+
+#Box4 {
+    background-color: cadetblue;
+
+}
+
+#Box5 {
+    background-color: cadetblue;
+
+}
+
+#Box6 {
+    background-color: cyan;
+
+}
+
+/* .MainLeft {
+    padding-top: 2px;
+    padding-left: 1em;
+    grid-row: 1/2;
+}
+.MainRight {
+
+
+}
+#content {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    flex-direction: column;
+
+}
+
+#training {
+    padding-left: 1em; 
+    background-color: blueviolet; 
+}
+#link {
+    padding-top: 1em;
+    padding-left: 1em;
+}
+#exp {
+    background-color: cornsilk;
+    padding-left: 1em;
+}
+#hobby {
+    background-color: cornsilk;
+    padding-left: 1em;
+}
+#comp {
+    padding-left: 1em;
+} */
